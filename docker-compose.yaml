@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
+    networks:
+      - monitoring
+
+  prometheus:
+    image: prom/prometheus:v2.30.3
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    networks:
+      - monitoring
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3030:3000"
+    depends_on:
+      - app
+      - prometheus
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - PROMETHEUS_URL=http://prometheus:9090
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+    driver: bridge
+
+volumes:
+  grafana_data:
