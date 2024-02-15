@@ -76,10 +76,7 @@
         "type": "row"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -130,10 +127,7 @@
         "pluginVersion": "10.3.1",
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "expr": "sum(playtag_hunted_players_current) by (team)",
@@ -150,10 +144,7 @@
         "type": "gauge"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -230,10 +221,7 @@
         },
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "expr": "sum(playtag_hunted_players_current) by (team)",
@@ -250,10 +238,7 @@
         "type": "timeseries"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -330,10 +315,7 @@
         },
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "expr": "sum(rate(playtag_hunted_players_total[$__rate_interval])) by (team)",
@@ -350,10 +332,7 @@
         "type": "timeseries"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -430,10 +409,7 @@
         },
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "expr": "sum(rate(playtag_rescued_players_total[$__rate_interval])) by (team)",
@@ -450,10 +426,7 @@
         "type": "timeseries"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -499,10 +472,7 @@
         "pluginVersion": "10.3.1",
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "exemplar": false,
@@ -517,10 +487,7 @@
             "useBackend": false
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "exemplar": false,
@@ -539,10 +506,7 @@
         "type": "gauge"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -592,10 +556,7 @@
         "pluginVersion": "10.3.1",
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "exemplar": false,
@@ -610,10 +571,7 @@
             "useBackend": false
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "exemplar": false,
@@ -632,10 +590,7 @@
         "type": "gauge"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -759,10 +714,7 @@
         "pluginVersion": "10.3.1",
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "expr": "sum by(team, target) (playtag_hunted_players_total{target!=\"\"})",
@@ -786,10 +738,7 @@
         "type": "table"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -838,10 +787,7 @@
         "pluginVersion": "10.3.1",
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "exemplar": false,
@@ -860,10 +806,7 @@
         "type": "gauge"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -987,10 +930,7 @@
         "pluginVersion": "10.3.1",
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "builder",
             "expr": "sum(playtag_commited_treasons_total) by (team, player)",
@@ -1014,10 +954,7 @@
         "type": "table"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -1066,10 +1003,7 @@
         "pluginVersion": "10.3.1",
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "exemplar": false,
@@ -1087,10 +1021,7 @@
         "type": "gauge"
       },
       {
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "fieldConfig": {
           "defaults": {
             "color": {
@@ -1168,10 +1099,7 @@
         "pluginVersion": "10.3.1",
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "disableTextWrap": false,
             "editorMode": "code",
             "expr": "sum(rate(playtag_commited_treasons_total[$__rate_interval])) by (team)",
@@ -1205,10 +1133,7 @@
         "bars": false,
         "dashLength": 10,
         "dashes": false,
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "editable": true,
         "error": false,
         "fieldConfig": {
@@ -1256,10 +1181,7 @@
         "steppedLine": false,
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "go_goroutines",
             "format": "time_series",
@@ -1307,10 +1229,7 @@
         "bars": false,
         "dashLength": 10,
         "dashes": false,
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "editable": true,
         "error": false,
         "fieldConfig": {
@@ -1358,10 +1277,7 @@
         "steppedLine": false,
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "go_gc_duration_seconds",
             "format": "time_series",
@@ -1409,10 +1325,7 @@
         "bars": false,
         "dashLength": 10,
         "dashes": false,
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "editable": true,
         "error": false,
         "fieldConfig": {
@@ -1466,10 +1379,7 @@
         "steppedLine": false,
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "process_resident_memory_bytes",
             "format": "time_series",
@@ -1481,10 +1391,7 @@
             "step": 4
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "process_virtual_memory_bytes",
             "format": "time_series",
@@ -1532,10 +1439,7 @@
         "bars": false,
         "dashLength": 10,
         "dashes": false,
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "editable": true,
         "error": false,
         "fieldConfig": {
@@ -1588,10 +1492,7 @@
         "steppedLine": false,
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "rate(process_resident_memory_bytes[$__range])",
             "format": "time_series",
@@ -1603,10 +1504,7 @@
             "step": 4
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "deriv(process_virtual_memory_bytes[$__range])",
             "format": "time_series",
@@ -1654,10 +1552,7 @@
         "bars": false,
         "dashLength": 10,
         "dashes": false,
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "editable": true,
         "error": false,
         "fieldConfig": {
@@ -1710,10 +1605,7 @@
         "steppedLine": false,
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "go_memstats_alloc_bytes",
             "format": "time_series",
@@ -1725,10 +1617,7 @@
             "step": 4
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "rate(go_memstats_alloc_bytes_total[30s])",
             "format": "time_series",
@@ -1740,10 +1629,7 @@
             "step": 4
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "go_memstats_stack_inuse_bytes",
             "format": "time_series",
@@ -1755,10 +1641,7 @@
             "step": 4
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "go_memstats_heap_inuse_bytes",
             "format": "time_series",
@@ -1807,10 +1690,7 @@
         "bars": false,
         "dashLength": 10,
         "dashes": false,
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "editable": true,
         "error": false,
         "fieldConfig": {
@@ -1863,10 +1743,7 @@
         "steppedLine": false,
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "deriv(go_memstats_alloc_bytes[$__range])",
             "format": "time_series",
@@ -1878,10 +1755,7 @@
             "step": 4
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "rate(go_memstats_alloc_bytes_total[$__range])",
             "format": "time_series",
@@ -1893,10 +1767,7 @@
             "step": 4
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "deriv(go_memstats_stack_inuse_bytes[$__range])",
             "format": "time_series",
@@ -1908,10 +1779,7 @@
             "step": 4
           },
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "deriv(go_memstats_heap_inuse_bytes[$__range])",
             "format": "time_series",
@@ -1960,10 +1828,7 @@
         "bars": false,
         "dashLength": 10,
         "dashes": false,
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "editable": true,
         "error": false,
         "fieldConfig": {
@@ -2011,10 +1876,7 @@
         "steppedLine": false,
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "process_open_fds",
             "format": "time_series",
@@ -2062,10 +1924,7 @@
         "bars": false,
         "dashLength": 10,
         "dashes": false,
-        "datasource": {
-          "type": "prometheus",
-          "uid": "prometheusdatasource"
-        },
+        "datasource": "prometheusdatasource",
         "editable": true,
         "error": false,
         "fieldConfig": {
@@ -2113,10 +1972,7 @@
         "steppedLine": false,
         "targets": [
           {
-            "datasource": {
-              "type": "prometheus",
-              "uid": "prometheusdatasource"
-            },
+            "datasource": "prometheusdatasource",
             "editorMode": "code",
             "expr": "deriv(process_open_fds[$__range])",
             "format": "time_series",

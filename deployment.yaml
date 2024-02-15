@@ -28,6 +28,9 @@ spec:
     metadata:
       labels:
         app: play-tag
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/path: "/metrics"
     spec:
       containers:
         - name: app
