@@ -107,7 +107,7 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 
 	// Create a game with players
-	game := initializeGame(240)
+	game := initializeGame(120)
 
 	// Expose Prometheus metrics
 	go exposeMetrics()

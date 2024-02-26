@@ -45,7 +45,7 @@
             "mode": "thresholds"
           },
           "mappings": [],
-          "max": 80,
+          "max": 40,
           "min": 0,
           "thresholds": {
             "mode": "absolute",
@@ -56,7 +56,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
@@ -157,7 +157,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
@@ -254,7 +254,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
@@ -351,7 +351,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
@@ -500,7 +500,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
@@ -595,7 +595,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
@@ -737,7 +737,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
@@ -817,7 +817,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
@@ -959,7 +959,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
@@ -1061,7 +1061,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 40
               }
             ]
           },
