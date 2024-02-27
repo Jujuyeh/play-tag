@@ -27,7 +27,7 @@ var (
 	huntedCounter = prometheus.NewCounterVec(
 		prometheus.CounterOpts{
 			Name: "playtag_hunted_players_total",
-			Help: "Total number of players hunted",
+			Help: "Total number of hunted players",
 		},
 		[]string{"team", "target", "hunter"},
 	)
@@ -35,7 +35,7 @@ var (
 	rescuedCounter = prometheus.NewCounterVec(
 		prometheus.CounterOpts{
 			Name: "playtag_rescued_players_total",
-			Help: "Total number of players rescued",
+			Help: "Total number of rescued players",
 		},
 		[]string{"team", "player"},
 	)
@@ -43,7 +43,7 @@ var (
 	treasonCounter = prometheus.NewCounterVec(
 		prometheus.CounterOpts{
 			Name: "playtag_commited_treasons_total",
-			Help: "Total number of commited",
+			Help: "Total number of commited treasons",
 		},
 		[]string{"team", "player"},
 	)
@@ -51,7 +51,7 @@ var (
 	huntedGauge = prometheus.NewGaugeVec(
 		prometheus.GaugeOpts{
 			Name: "playtag_hunted_players_current",
-			Help: "Current number of players hunted",
+			Help: "Current number of hunted players",
 		},
 		[]string{"team"},
 	)
