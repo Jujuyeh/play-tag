@@ -1,5 +1,5 @@
 # Use the official Golang image as the base image
-FROM golang:1.19 AS builder
+FROM quay.io/projectquay/golang:1.19 AS builder
 
 # Set the working directory inside the container
 WORKDIR /app
